@@ -1,0 +1,30 @@
+section {
+  max-width: 980px;
+  margin: auto;
+  margin-top: 3rem;
+  /* border: 1px solid black; */
+}
+section h1 {
+  font-size: 4rem;
+  font-family: Poppins, sans-serif;
+}
+section p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+@media (max-width: 390px) {
+  section{
+    margin-top: 2rem;
+  }
+  section h1 {
+    font-size: 2rem;
+  }
+
+  section p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+}

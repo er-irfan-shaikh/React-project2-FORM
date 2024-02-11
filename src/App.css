@@ -1,0 +1,9 @@
+.App{
+    margin-inline: 5rem;
+}
+
+@media (max-width: 390px){
+    .App{
+    margin-inline: 2rem;
+    }
+}
